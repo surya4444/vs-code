@@ -1,4 +1,22 @@
 .hotel{
     height: 500px;
     width: 500px;
+    margin: 2% 4% 0% 4%;
+}
+
+/* #contentDiv{
+    margin: 2% 4%;
+} */
+
+#form{
+    /* margin-bottom: 1%; */
+    margin: 0% 4% 1% 4%;
+}
+
+/* h2{
+    margin-top: 1%;
+} */
+
+#descriptionDiv {
+    margin: 1% 4% 2% 4%;
 }

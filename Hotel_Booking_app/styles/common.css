@@ -1,9 +1,11 @@
 html ,body , .main{
     height: 100%;
     width: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
 }
 
-.website-logo{
+#website-logo{
     height: 60px;
     width: 60px;
 }
@@ -11,4 +13,8 @@ html ,body , .main{
 .social-media-logo{
     height: 20px;
     width: 22px;
+}
+
+#header , #footer{
+    background-color: rosybrown;
 }

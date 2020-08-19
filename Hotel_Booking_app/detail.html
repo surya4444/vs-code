@@ -10,16 +10,16 @@
     <body>
 
         <div class="main">
-            <header>                                                         <!--Header Div starting-->
+            <header id="header">                                                         <!--Header Div starting-->
                 <a href="index.html">
-                <img src="assests/images/logo.png" alt="logo" class="website-logo"></a>
+                <img src="assests/images/logo.png" alt="logo" id="website-logo"></a>
                 <a href="login.html">Login</a>
             </header>                                                         <!--Header Div ending-->
 
-            <div>                                                          <!--Content Div starting-->
+            <div id="contentDiv">                                                          <!--Content Div starting-->
                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" class="hotel"> <br/>
 
-                <form action="payment.html" method="GET" autocomplete="off">
+                <form action="payment.html" method="GET" autocomplete="off" id="form">
                     <label for="adult">Adults:</label>
                     <input type="number" id="adult" name="adult" min="1" value="1"><br>
 
@@ -33,32 +33,35 @@
                     <input type="date" id="todate" name="todate" required><br>
 
                     <label for="price">Total:</label>
-                    <input type="number" id="price" name="price" disabled><br>
+                    <input type="number" id="price" name="price" readonly><br>
 
                     <button>Book Now</button>
                 </form>
 
-                <h2>Radisson Blu Hotel</h2>
-                <p>RATING</p>
-                <p>5 Stars</p>
-                <p>AMENITIES</p>
-                <ul>
-                    <li>Room Service</li>
-                    <li>Restaurant</li>
-                    <li>Bussiness center</li>
-                    <li>Fitness Center</li>
-                    <li>Pool</li>
-                </ul>
-                <h5>DESCRIPTION</h5>
-                <p>
-                    Radisson Blu is an international chain of hotels operated by Radisson Hotels. With roots dating 
-                    back to the 1960s,the Radisson Blu brand name came into existence in 2009 with a rebranding
-                    from Radisson SAS.Its hotels are found in major cities, key airport 
-                    gateways and leisure destinations.
-                </p>
+                <div id="descriptionDiv">
+                    <h2>Radisson Blu Hotel</h2>
+                    <p>RATING</p>
+                    <p>5 Stars</p>
+                    <p>AMENITIES</p>
+                    <ul>
+                        <li>Room Service</li>
+                        <li>Restaurant</li>
+                        <li>Bussiness center</li>
+                        <li>Fitness Center</li>
+                        <li>Pool</li>
+                    </ul>
+                    <h5>DESCRIPTION</h5>
+                    <p>
+                        Radisson Blu is an international chain of hotels operated by Radisson Hotels. With roots dating 
+                        back to the 1960s,the Radisson Blu brand name came into existence in 2009 with a rebranding
+                        from Radisson SAS.Its hotels are found in major cities, key airport 
+                        gateways and leisure destinations.
+                    </p>
+                </div>
+                
             </div>                                                       <!--Content Div ending-->
 
-            <footer>                                                        <!--Footer Div starting-->
+            <footer id="footer">                                                        <!--Footer Div starting-->
                 <div><a href="contact.html">Contact Us</a></div>
 
                 <div>
