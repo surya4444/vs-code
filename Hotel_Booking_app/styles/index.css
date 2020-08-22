@@ -13,7 +13,44 @@
     background-size: cover;
 }
 
-#city-list{
+#searchCity{
+    position: relative;
+    top: 190px;
+    left: 500px;
+    border: 1px solid white;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 370px; 
+}
+
+/* #searchCity{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border: 1px solid white ;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 370px; 
+} */
+
+
+#city-list {
     margin-left: 15%;
     margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewmore {
+    text-align: center;
+}
+
+.viewmore a{
+    text-decoration: none;
+    color: black;
 }

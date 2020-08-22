@@ -6,6 +6,7 @@
         <title>List</title>
         <link rel="stylesheet" href="styles/common.css">
         <link rel="stylesheet" href="styles/list.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     
     <body>
@@ -14,17 +15,15 @@
             <header id="header">                                                                     <!--Header Div starting-->
                 <a href="index.html">
                     <img src="assests/images/logo.png" alt="logo" id="website-logo"> </a>             
-                <a href="login.html" >Login</a>
+                <a href="login.html" class="login" >Login</a>
             </header>                                                                    <!--Header Div ending-->
 
-            <div>                                                                     <!--Content Div starting-->
-                <div>
-                    <nav>
-                        <ul>
-                            <li><a href="#list-view">List View</a></li> 
-                            <li><a href="#map-view">Map View</a></li>
-                        </ul>
-                    </nav>
+            <div class="contentDiv">                                                     <!--Content Div starting-->
+                <div id="listBar">
+                    <ul>
+                        <li><a href="#list-view">List View</a></li> 
+                        <li><a href="#map-view">Map View</a></li>
+                    </ul>
                 </div>
 
                 <div id="list-view">
@@ -56,8 +55,8 @@
             </div>                                                                      <!--Content Div ending-->
 
             <footer id="footer">                                                                       <!--Footer Div starting-->
-                <div><a href="contact.html">Contact Us</a></div>
-                <div>
+                <div class="contactText"><a href="contact.html">Contact Us</a></div>
+                <div class="social-media">
                     <a href="https://www.facebook.com/" target="_blank">
                         <img src="assests/images/facebook.png" class="social-media-logo"></a>
                     <a href="https://www.instagram.com/" target="_blank">
@@ -65,7 +64,7 @@
                     <a href="https://twitter.com/" target="_blank">
                         <img src="assests/images/twitter.png" class="social-media-logo"></a>
                 </div>
-                <div>&copy; 2020 ROOM SEARCH PVT LTD</div>
+                <div class="copyright">&copy; 2020 ROOM SEARCH PVT LTD</div>
             </footer>                                                                      <!--Footer Div ending-->                  
         </div>
         

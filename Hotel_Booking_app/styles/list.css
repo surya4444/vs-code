@@ -3,8 +3,34 @@
     width: 250px;
 }
 
+/* In left-side hotel move towards right side so i change in checkpoint 6 by compair with checkpoint 5 */
 .hotelDivEach{
-    margin: 2%;
+    margin: 2% 4%;
     background-color: rgb(132, 136, 139) ;
     width: 40%;
+    display: inline-block;
+}
+
+.hotelDivEach a{
+    text-decoration: none;
+    color: black;
+}
+
+#listBar ul{
+    text-align: center;
+}
+
+#listBar li{
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+#listBar a{ 
+    text-decoration: none;
+    color: black;
+} 
+
+#map-view{
+    display: none;
 }

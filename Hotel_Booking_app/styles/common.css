@@ -1,8 +1,11 @@
-html ,body , .main{
+html ,body , .main {
     height: 100%;
     width: 100%;
     margin: 0;
     background-color: #e0e0e0;
+}
+.main{
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #website-logo{
@@ -15,6 +18,43 @@ html ,body , .main{
     width: 22px;
 }
 
-#header , #footer{
+#header {
     background-color: rosybrown;
+    width: 100%;
+    position: sticky;
+    top: 0px;
 }
+
+#footer{
+    background-color: rosybrown;
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+}
+
+.login{
+    float: right;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+ .contactText a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.social-media{
+    text-align: right;
+    margin: 5px 20px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 10px;
+} 
