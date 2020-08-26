@@ -13,9 +13,13 @@
 
         <div class="main">
             <header id="header">                                                                     <!--Header Div starting-->
-                <a href="index.html">
-                    <img src="assests/images/logo.png" alt="logo" id="website-logo"> </a>             
-                <a href="login.html" class="login" >Login</a>
+                <div id="website-logo">
+                    <a href="index.html">
+                        <img src="assests/images/logo.png" alt="logo"> </a>  
+                </div>
+                <div class="login">
+                    <a href="login.html">Login</a>
+                </div>
             </header>                                                                    <!--Header Div ending-->
 
             <div class="contentDiv">                                                     <!--Content Div starting-->
@@ -28,24 +32,35 @@
 
                 <div id="list-view">
                     <div class="hotelDivEach">
-                        <a href="detail.html">
-                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" class="hotel">
+                        <div class="eachHotel">
+                            <a href="detail.html">
+                                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" class="hotel">
+                        </div>
+                        <div class="data">
                                 <h3>Radisson Blu Hotel</h3>
                                 <p>5 Star</p>
                                 <p>New Delhi</p>
-                        </a>
+                        </div></a>
                     </div>
                     <div class="hotelDivEach">
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="The Lalit New Delhi" class="hotel">
-                        <h3>The Lalit New Delhi</h3>
-                        <p>4.5 Star</p>
-                        <p>New Delhi</p>
+                        <div class="eachHotel" >
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="The Lalit New Delhi" class="hotel">
+                        </div>
+                        <div class="data">
+                            <h3>The Lalit New Delhi</h3>
+                            <p>4.5 Star</p>
+                            <p>New Delhi</p>
+                        </div>
                     </div>
                     <div class="hotelDivEach">
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="Taj Palace" class="hotel">
-                        <h3>Taj Palace</h3>
-                        <p>4.0 Star</p>
-                        <p>New Delhi</p>
+                        <div class="eachHotel">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="Taj Palace" class="hotel">
+                        </div>
+                        <div>
+                            <h3>Taj Palace</h3>
+                            <p>4.0 Star</p>
+                            <p>New Delhi</p>
+                        </div>
                     </div>
                 </div>
                 <div id="map-view">
@@ -56,6 +71,7 @@
 
             <footer id="footer">                                                                       <!--Footer Div starting-->
                 <div class="contactText"><a href="contact.html">Contact Us</a></div>
+                <div class="copyright">&copy; 2020 ROOM SEARCH PVT LTD</div>
                 <div class="social-media">
                     <a href="https://www.facebook.com/" target="_blank">
                         <img src="assests/images/facebook.png" class="social-media-logo"></a>
@@ -64,9 +80,8 @@
                     <a href="https://twitter.com/" target="_blank">
                         <img src="assests/images/twitter.png" class="social-media-logo"></a>
                 </div>
-                <div class="copyright">&copy; 2020 ROOM SEARCH PVT LTD</div>
             </footer>                                                                      <!--Footer Div ending-->                  
-        </div>
         
+        </div>
     </body>
 </html>

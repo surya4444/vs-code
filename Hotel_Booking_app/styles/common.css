@@ -8,9 +8,13 @@ html ,body , .main {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#website-logo{
+#website-logo img{
     height: 60px;
     width: 60px;
+}
+
+#website-logo {
+    margin-left: 1%;
 }
 
 .social-media-logo{
@@ -19,42 +23,50 @@ html ,body , .main {
 }
 
 #header {
+    z-index: 1;
+    height: 10%;
     background-color: rosybrown;
     width: 100%;
     position: sticky;
     top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #footer{
+    /* z-index: 1; */
+    height: 10%;
     background-color: rosybrown;
     width: 100%;
     position: sticky;
     bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
 }
 
 .login{
-    float: right;
-    text-decoration: none;
-    color: black;
-    position: relative;
-    top: 20px;
-    right: 20px;
+    margin-right: 2%;
 }
 
  .contactText a{
     text-decoration: none;
     color: black;
-    position: relative;
-    top: 25px;
-    left: 10px;
+}
+.contactText{
+    margin-left: 2%;
 }
 
 .social-media{
-    text-align: right;
-    margin: 5px 20px;
+    margin-right: 2%;
 }
 
 .copyright{
-    text-align: center;
     font-size: 10px;
 } 

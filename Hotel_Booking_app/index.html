@@ -13,27 +13,54 @@
         that i change it to 'fixed' from 'striky' so that it see same now  -->
         <div class="main">
             <header id="header" style="position: fixed;">                                                           <!--Header Div starting-->
-                <img src="assests/images/logo.png" alt="logo" id="website-logo">
-                <a href="login.html" class="login">Login</a>
+                <div id="website-logo">
+                    <img src="assests/images/logo.png" alt="logo" >
+                </div>
+                <div class="login">
+                    <a href="login.html" >Login</a>
+                </div>
             </header>                                                             <!--Header Div ending-->
                         
-            <div>                                                              <!--Content Div starting-->
+            <div class="contentDiv">                                                              <!--Content Div starting-->
                 <div id="search">
                     <!-- <label for="city"></label> -->
-                    <input type="text" id="searchCity" name="city" placeholder="City" autocomplete="off">
+                    <div class="searchBar">
+                        <input type="text" id="searchCity" name="city" placeholder="City" autocomplete="off">
+                    </div>
                 </div>
                 <div id="city-list">
-                    <a href="list.html" style="padding: 3.4%;">
-                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="Delhi" class="city" ></a>
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa" class="city">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="Hyderabad" class="city">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="Kolkata" class="city">
+                    <div class="cityName">
+                        <a href="list.html" >
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="Delhi" class="city" >
+                        <div class="overlay">
+                            <div class="text">Delhi</div>
+                        </div></a>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="Goa" class="city">
+                        <div class="overlay">
+                            <div class="text">Goa</div>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="Hyderabad" class="city">
+                        <div class="overlay">
+                            <div class="text">Hyderabad</div>
+                        </div>
+                    </div>
+                    <div class="cityName">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="Kolkata" class="city">
+                        <div class="overlay">
+                            <div class="text">Kolkata</div>
+                        </div>
+                    </div>    
                 </div>
                 <div class="viewmore"> <a href="#" >View more>></a> </div><br><br>
             </div>                                                         <!--Content Div ending-->
 
             <footer id="footer">                                                              <!--Footer Div starting-->
                 <div class="contactText"><a href="contact.html" >Contact Us</a></div>
+                <div class="copyright">&copy; 2020 ROOM SEARCH PVT LTD</div>
                 <div class="social-media">
                     <a href="https://www.facebook.com/" target="_blank">
                         <img src="assests/images/facebook.png" class="social-media-logo"></a>
@@ -42,7 +69,6 @@
                     <a href="https://twitter.com/" target="_blank">
                         <img src="assests/images/twitter.png"  class="social-media-logo"></a>
                 </div>
-                <div class="copyright">&copy; 2020 ROOM SEARCH PVT LTD</div>
             </footer>                                                              <!--Footer Div ending-->
         </div>
 

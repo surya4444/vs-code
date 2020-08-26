@@ -12,20 +12,28 @@
         
         <div class="main">        
             <header id="header">                                                              <!--Header Div starting-->
-                <a href="index.html">
-                <img src="assests/images/logo.png" alt="logo" id="website-logo"></a>
-                <a href="login.html" class="login">Login</a>
+                <div id="website-logo">
+                    <a href="index.html">
+                        <img src="assests/images/logo.png" alt="logo" ></a>
+                </div>
+                <div class="login">
+                    <a href="login.html" >Login</a>
+                </div>
             </header>                                                              <!--Header Div ending-->
 
             <div>                                                               <!--Content Div starting-->
                 <div class="payHotelDiv">                                          <!--Hotel detail Dev start-->
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" class="hotel"> <br/>
-                    <h2>Radisson Blu Hotel</h2>
-                    <p>#38 of 1,289 hotels in New Delhi</p>
-                    <p>National Highway 8, New Delhi 110017 India</p>
+                    <div class="see">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" class="hotel">
+                    </div>
+                    <div class="hoteLdata">
+                        <h2>Radisson Blu Hotel</h2>
+                        <p>#38 of 1,289 hotels in New Delhi</p>
+                        <p>National Highway 8, New Delhi 110017 India</p>
+                    </div>
                 </div>                                                       <!--Hotel detail Dev end-->
 
-                <div>                                                       <!--Payment details Dev start-->
+                <div class="payment">                                                       <!--Payment details Dev start-->
                     <div class="payDetails">
                         <p><b>Name:</b> John Doe</p>
                         <p><b>Number of Adults:</b> 2</p>
@@ -38,13 +46,14 @@
                         <p><b>Total Amount:</b> 10000</p>
                     </div>
 
-                    <div id="paynow"><a href="#">Pay Now</a></div><br><br>
+                    <div id="paynow"><a href="#">Pay Now</a></div>
                 </div>                                                          <!--Payment details Dev end-->
+                <br><br><br><br><br><br><br>
             </div>                                                              <!--Content Div ending-->
 
-            <footer id="footer">                                                                <!--Footer Div starting-->
+            <footer id="footer" style="position: fixed;">                                                                       <!--Footer Div starting-->
                 <div class="contactText"><a href="contact.html">Contact Us</a></div>
-
+                <div class="copyright">&copy; 2020 ROOM SEARCH PVT LTD</div>
                 <div class="social-media">
                     <a href="https://www.facebook.com/" target="_blank">
                         <img src="assests/images/facebook.png" class="social-media-logo"></a>
@@ -53,9 +62,7 @@
                     <a href="https://twitter.com/" target="_blank">
                         <img src="assests/images/twitter.png" class="social-media-logo"></a>
                 </div>
-
-                <div class="copyright">&copy; 2020 ROOM SEARCH PVT LTD</div>
-            </footer>                                                                <!--Footer Div ending--> 
+            </footer>                                                                      <!--Footer Div ending-->   
 
         </div>
     </body>

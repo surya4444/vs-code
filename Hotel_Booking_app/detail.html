@@ -12,38 +12,61 @@
 
         <div class="main">
             <header id="header">                                                         <!--Header Div starting-->
-                <a href="index.html">
-                <img src="assests/images/logo.png" alt="logo" id="website-logo"></a>
-                <a href="login.html" class="login">Login</a>
+                <div id="website-logo">
+                    <a href="index.html">
+                        <img src="assests/images/logo.png" alt="logo"></a>
+                </div>
+                <div class="login">
+                    <a href="login.html">Login</a>
+                </div>
             </header>                                                         <!--Header Div ending-->
 
-            <div id="contentDiv">                                                          <!--Content Div starting-->
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" class="hotel"> <br/>
+            <div class="contentDiv">                                                          <!--Content Div starting-->
+                
+                <table width="98%" class="overallTable">
+                    <tr >
+                        <td width="70%" class="overallTable" align="center">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" class="hotel"> <br/>
+                        </td>
 
-                <form action="payment.html" method="GET" autocomplete="off" id="form">
-                    <label for="adult">Adults:</label>
-                    <input type="number" id="adult" name="adult" min="1" value="1"><br>
+                        <td  class="overallTable">
+                            <form action="payment.html" method="GET" autocomplete="off" id="form">
+                                <table>
+                                    <tr style="padding-top: 15%">
+                                        <td><label for="adult">Adults:</label></td>
+                                        <td><input type="number" id="adult" name="adult" min="1" value="1" width="5px"><br></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-top: 15%"><label for="name">Name:</label></td>
+                                        <td style="padding-top: 15%" ><input type="text" id="name" name="name" required><br></td>
+                                    </tr>
 
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br>
-
-                    <label for="fromdate">From Date:</label>
-                    <input type="date" id="fromdate" name="fromdate" required><br>
-
-                    <label for="todate">To Date:</label>
-                    <input type="date" id="todate" name="todate" required><br>
-
-                    <label for="price">Total:</label>
-                    <input type="number" id="price" name="price" readonly><br>
-
-                    <button>Book Now</button>
-                </form>
+                                    <tr>
+                                        <td style="padding-top: 15%"><label for="fromdate">From Date:</label></td>
+                                        <td style="padding-top: 15%"><input type="date" id="fromdate" name="fromdate" required><br></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-top: 15%"><label for="todate">To Date:</label></td>
+                                        <td style="padding-top: 15%"><input type="date" id="todate" name="todate" required><br></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-top: 15%"><label for="price">Total:</label></td>
+                                        <td style="padding-top: 15%"><input type="number" id="price" name="price" readonly><br></td>
+                                    </tr>
+                                </table>
+                                <div align="center">
+                                    <button style="padding: 5px;">Book Now</button>
+                                </div>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
 
                 <div id="descriptionDiv">
                     <h2>Radisson Blu Hotel</h2>
-                    <p>RATING</p>
+                    <p class="font">RATING</p>
                     <p>5 Stars</p>
-                    <p>AMENITIES</p>
+                    <p class="font">AMENITIES</p>
                     <ul>
                         <li>Room Service</li>
                         <li>Restaurant</li>
@@ -51,7 +74,7 @@
                         <li>Fitness Center</li>
                         <li>Pool</li>
                     </ul>
-                    <h5>DESCRIPTION</h5>
+                    <p class="font">DESCRIPTION</p>
                     <p>
                         Radisson Blu is an international chain of hotels operated by Radisson Hotels. With roots dating 
                         back to the 1960s,the Radisson Blu brand name came into existence in 2009 with a rebranding
@@ -65,6 +88,8 @@
             <footer id="footer">                                                        <!--Footer Div starting-->
                 <div class="contactText"><a href="contact.html">Contact Us</a></div>
 
+                <div class="copyright">&copy; 2020 ROOM SEARCH PVT LTD</div>
+
                 <div class="social-media">
                     <a href="https://www.facebook.com/" target="_blank">
                         <img src="assests/images/facebook.png" class="social-media-logo"></a>
@@ -73,8 +98,6 @@
                     <a href="https://twitter.com/" target="_blank">
                         <img src="assests/images/twitter.png" class="social-media-logo"></a>
                 </div>
-
-                <div class="copyright">&copy; 2020 ROOM SEARCH PVT LTD</div>
             </footer>                                                       <!--Footer Div ending-->  
         
         </div>
