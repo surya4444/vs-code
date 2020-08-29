@@ -35,7 +35,7 @@ html ,body , .main {
 }
 
 #footer{
-    /* z-index: 1; */
+    z-index: 1;
     height: 10%;
     background-color: rosybrown;
     width: 100%;
@@ -70,3 +70,25 @@ html ,body , .main {
 .copyright{
     font-size: 10px;
 } 
+
+.form-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+#move1{
+    display: flex;
+    justify-content: center;
+}
+
+.length{
+    width: 250px;
+}
+
+.move2{
+    float: right;
+}
+
+.modal-backdrop {  
+    display: none;    
+}

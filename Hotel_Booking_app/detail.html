@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="styles/common.css">
         <link rel="stylesheet" href="styles/detail.css">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
     <body>
 
@@ -17,7 +20,39 @@
                         <img src="assests/images/logo.png" alt="logo"></a>
                 </div>
                 <div class="login">
-                    <a href="login.html">Login</a>
+                    <!-- <a href="login.html">Login</a> -->
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#example-modal" id="sign-in-button">
+                        LOGIN
+                    </button>
+
+                    <div class="modal fade" id="example-modal" tabindex="-1" role="dialog" aria-labelledby="example-modal-label" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="example-modal-label">Please LogIn</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="example-input-email">Username:</label>
+                                            <input type="text" id="example-input-email" class="length" required placeholder="Enter Username">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="example-input-password">Password:</label>
+                                            <input  type="password" id="example-input-password" class="length" required placeholder="Enter Password">
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+                                <div class="modal-footer" id="move1">
+                                    <button type="submit" class="btn btn-primary ">Log In</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </header>                                                         <!--Header Div ending-->
 
@@ -31,31 +66,31 @@
 
                         <td  width="30%" class="overallTable form_table">
                             <form action="payment.html" method="GET" autocomplete="off" id="form">
-                                <table>
+                                <table class="position">
                                     <tr>
-                                        <td style="padding-top: 10%;"><label for="adult">Adults:</label></td>
-                                        <td style="padding-top: 10%;"><input type="number" id="adult" name="adult" min="1" value="1" width="5px"><br></td>
+                                        <td class="need"><label for="adult">Adults:</label></td>
+                                        <td class="need"><input class="area" type="number" id="adult" name="adult" min="1" value="1" width="5px"></td>
                                     </tr>
                                     <tr>
-                                        <td style="padding-top: 15%"><label for="name">Name:</label></td>
-                                        <td style="padding-top: 15%" ><input type="text" id="name" name="name" required><br></td>
+                                        <td class="need"><label for="name">Name:</label></td>
+                                        <td class="need"><input class="area" type="text" id="name" name="name" required></td>
                                     </tr>
 
                                     <tr>
-                                        <td style="padding-top: 15%"><label for="fromdate">From Date:</label></td>
-                                        <td style="padding-top: 15%"><input type="date" id="fromdate" name="fromdate" required><br></td>
+                                        <td class="need"><label for="fromdate">From Date:</label></td>
+                                        <td class="need"><input class="area" type="date" id="fromdate" name="fromdate" required></td>
                                     </tr>
                                     <tr>
-                                        <td style="padding-top: 15%"><label for="todate">To Date:</label></td>
-                                        <td style="padding-top: 15%"><input type="date" id="todate" name="todate" required><br></td>
+                                        <td class="need"><label for="todate">To Date:</label></td>
+                                        <td class="need"><input class="area" type="date" id="todate" name="todate" required></td>
                                     </tr>
                                     <tr>
-                                        <td style="padding-top: 15%"><label for="price">Total:</label></td>
-                                        <td style="padding-top: 15%"><input type="number" id="price" name="price" readonly><br></td>
+                                        <td class="need"><label for="price">Total:</label></td>
+                                        <td class="need"><input class="area" type="number" id="price" name="price" readonly></td>
                                     </tr>
                                 </table>
                                 <div style="padding-top: 5%;" class="bookButton" align="center">
-                                    <button style="padding: 5px;">Book Now</button>
+                                    <button type="submit" class="btn btn-outline-success">Book Now</button>
                                 </div>
                             </form>
                         </td>
@@ -86,7 +121,38 @@
             </div>                                                       <!--Content Div ending-->
 
             <footer id="footer">                                                        <!--Footer Div starting-->
-                <div class="contactText"><a href="contact.html">Contact Us</a></div>
+                <div class="contactText">
+                    <!-- <a href="contact.html">Contact Us</a> -->
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#contact-modal" id="contact-in-button">
+                        Contact Us
+                    </button>
+                            
+                    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="example-modal-label" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="example-modal-label">Get in touch</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <span>Thank you for reaching out!!!</span><br>
+                                        <p>Please Enter you email and we will get back to you.</p>
+                                        <div class="form-group1">
+                                            <label for="example-input-email" aria-autocomplete="on">Email:</label>
+                                            <input type="email" id="example-input-email" class="length" required placeholder="Enter your email Id">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-primary move2">Submit</button>
+                                </div>
+                                    </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="copyright">&copy; 2020 ROOM SEARCH PVT LTD</div>
 

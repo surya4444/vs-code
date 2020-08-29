@@ -15,31 +15,36 @@
     margin-right: 2%;
 }
 
-#list-view{
+/* #list-view{
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
 .hotelDivEach a{
     text-decoration: none;
     color: black;
 }
 
-#listBar ul{
-    text-align: center;
+.hotelDivEach:hover{
+    background-color: rosybrown;
 }
 
-#listBar li{
+/* #listBar ul{
+    text-align: center;
+} */
+
+/* #listBar li{
     display: inline-block;
     font-weight: bold;
     padding-right: 50px;
+} */
+
+#listBar{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
 }
 
 #listBar a{ 
-    text-decoration: none;
     color: black;
 } 
-
-#map-view{
-    display: none;
-}

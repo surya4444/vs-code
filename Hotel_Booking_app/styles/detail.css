@@ -7,11 +7,11 @@
 }
 
 #descriptionDiv {
-    margin: 1% 4% 2% 4%;
+    margin: 0% 2% 2% 2%;
 }
 
-input{
-    width: 150%;
+.area{
+    width: 120%;
     display: inline-flex;
 }
 
@@ -23,15 +23,13 @@ input{
     width: 95%;
 }
 
-/* table{
-    margin: 2%;
-    margin-left: 1%;
-} */
+.position{
+    margin-left: 5%;
+}
 
-/* .overallTable {
-    border: 1px solid black;
-    max-height: 400px;
-} */
+.need{
+    padding-top: 10%
+}
 
 .font{
     font-family: cursive;
