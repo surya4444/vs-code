@@ -1,7 +1,7 @@
 .hotel{
     max-height: 300px;
     max-width: 270px;
-    display: inline;
+    /* display: inline; */
 }
 
 .payHotelDiv{
@@ -37,4 +37,32 @@
 
 b{
     font-family: cursive;
+}
+
+@media only screen and (max-width :576px){
+    .payHotelDiv{
+        position: relative;
+        right: 100%;
+        display: block;
+        width: 100%;
+        background-color:  rgb(132, 136, 139);
+    }
+    .see{
+        position: relative;
+        left: 15%;
+    }
+    .hoteLdata{
+        font-size: 13px;
+        position: relative;
+        left: 13%;
+    }
+    .payment{
+        display: block;
+    }
+    #paynow{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-content: center;
+    }
 }

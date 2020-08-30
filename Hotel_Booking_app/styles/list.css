@@ -41,3 +41,13 @@
 #list-view{
     padding-left: 2%;
 }
+
+@media only screen and (max-width :576px){
+    .hotelDivEach{
+        margin: 2% 4%;
+        background-color: lightgrey ;
+        width: 71%;
+        display: flex;
+        flex-direction: column;
+    }
+}

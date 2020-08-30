@@ -77,3 +77,37 @@
     text-align: center;
 } 
 
+@media only screen and (max-width :576px){
+    #city-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .city{
+        margin-bottom: 5%;
+    }
+    #searchCity{
+        position: absolute;
+        top: 30%;
+        width: 50%; 
+    }
+}
+
+/* @media only screen and (max-width :768px){
+    #city-list {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    .city{
+        margin-bottom: 5%;
+    }
+    #searchCity{
+        position: absolute;
+        top: 25%;
+        width: 50%; 
+    }
+} */
