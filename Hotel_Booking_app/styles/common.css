@@ -92,3 +92,7 @@ html ,body , .main {
 .modal-backdrop {  
     display: none;    
 }
+
+.checked{
+    color: orange;
+}

@@ -7,7 +7,6 @@
     margin: 2% 4%;
     background-color: lightgrey ;
     width: 40%;
-    /* display: flex; */
     display: inline-flex;
 }
 
@@ -15,29 +14,19 @@
     margin-right: 2%;
 }
 
-/* #list-view{
-    display: flex;
-    flex-wrap: wrap;
-} */
-
-.hotelDivEach a{
+.data{
     text-decoration: none;
     color: black;
 }
 
+/* .hotelDivEach a{
+    text-decoration: none;
+    color: black;
+} */
+
 .hotelDivEach:hover{
     background-color: rosybrown;
 }
-
-/* #listBar ul{
-    text-align: center;
-} */
-
-/* #listBar li{
-    display: inline-block;
-    font-weight: bold;
-    padding-right: 50px;
-} */
 
 #listBar{
     margin-top: 1%;
@@ -48,3 +37,7 @@
 #listBar a{ 
     color: black;
 } 
+
+#list-view{
+    padding-left: 2%;
+}

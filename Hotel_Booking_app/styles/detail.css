@@ -1,9 +1,7 @@
 .hotel{
-    max-height: 350px;
-    margin: 2% 4% 0% 4%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    max-height: 300px;
+    max-width: 500px;
+    margin-top: 5%;
 }
 
 #descriptionDiv {
@@ -13,14 +11,6 @@
 .area{
     width: 120%;
     display: inline-flex;
-}
-
-.continar{
-    display: grid;
-    margin: 2%;
-    border: 1px solid black;
-    display: inline-flex;
-    width: 95%;
 }
 
 .position{
@@ -43,7 +33,7 @@
     border: 1px solid black;
 }
 
-.form_table {
+.overallTable {
     border-left: 1px solid black;
 }
 
