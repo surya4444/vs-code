@@ -55,10 +55,6 @@ html ,body , .main {
     margin-right: 2%;
 }
 
- .contactText a{
-    text-decoration: none;
-    color: black;
-}
 .contactText{
     margin-left: 2%;
 }
@@ -96,10 +92,3 @@ html ,body , .main {
 .checked{
     color: orange;
 }
-
-/* @media only screen and (max-width :768px){
-    #footer{
-        position: fixed;
-    }
-
-} */
